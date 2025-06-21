@@ -1,5 +1,25 @@
 package com.cognizant;
 
+/*
+
+When years becomes large (e.g., 10,000+), recursion can cause:
+
+StackOverflowError
+
+Slower execution due to deep call stack
+
+Use Iteration (Best Option)
+Avoid recursion altogether and use a simple loop:
+
+public static double predictFutureValueIterative(int years, double initialValue, double growthRate) {
+    double result = initialValue;
+    for (int i = 0; i < years; i++) {
+        result *= (1 + growthRate);
+    }
+    return result;
+}
+*/
+
 public class RecursionTest {
 	public static void main(String[] args) {
 		
