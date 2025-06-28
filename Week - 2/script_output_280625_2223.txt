@@ -1,0 +1,155 @@
+
+ORA-00955: name is already used by an existing object
+
+https://docs.oracle.com/error-help/db/ora-00955/Error at Line: 4 Column: 0 
+
+
+
+1 row inserted.
+
+Elapsed: 00:00:00.014
+
+
+1 row inserted.
+
+Elapsed: 00:00:00.001
+
+
+1 row inserted.
+
+Elapsed: 00:00:00.001
+
+
+Commit complete.
+
+Elapsed: 00:00:00.001
+
+
+Procedure PROCESSMONTHLYINTEREST compiled
+
+Elapsed: 00:00:00.023
+
+
+PL/SQL procedure successfully completed.
+
+Elapsed: 00:00:00.012
+ACCOUNTID CUSTOMERID BALANCE 
+--------- ---------- ------- 
+1         101        5050    
+2         102        10100   
+3         103        7575    
+
+Elapsed: 00:00:00.009
+3 rows selected. 
+
+
+
+Table EMPLOYEES created.
+
+Elapsed: 00:00:00.012
+
+
+1 row inserted.
+
+Elapsed: 00:00:00.017
+
+
+1 row inserted.
+
+Elapsed: 00:00:00.001
+
+
+1 row inserted.
+
+Elapsed: 00:00:00.002
+
+
+Commit complete.
+
+Elapsed: 00:00:00.002
+
+
+Procedure UPDATEEMPLOYEEBONUS compiled
+
+Elapsed: 00:00:00.016
+
+
+PL/SQL procedure successfully completed.
+
+Elapsed: 00:00:00.012
+EMPLOYEEID EMPLOYEENAME DEPARTMENTID SALARY 
+---------- ------------ ------------ ------ 
+1          Alice        10           52500  
+2          Bob          10           57750  
+3          Charlie      20           60000  
+
+Elapsed: 00:00:00.167
+3 rows selected. 
+
+
+
+Table BANKACCOUNTS created.
+
+Elapsed: 00:00:00.016
+
+
+1 row inserted.
+
+Elapsed: 00:00:00.021
+
+
+1 row inserted.
+
+Elapsed: 00:00:00.001
+
+
+Commit complete.
+
+Elapsed: 00:00:00.001
+
+ORA-00001: unique constraint (SQL_HFCG2H9NIO1EUT5VIFM4K22XG2.SYS_C002459750) violated on table SQL_HFCG2H9NIO1EUT5VIFM4K22XG2.BANKACCOUNTS columns (ACCOUNTID)
+ORA-03301: (ORA-00001 details) row with column values (ACCOUNTID:1) already exists
+
+https://docs.oracle.com/error-help/db/ora-00001/Error at Line: 4 Column: 0 
+
+
+ORA-00001: unique constraint (SQL_HFCG2H9NIO1EUT5VIFM4K22XG2.SYS_C002459750) violated on table SQL_HFCG2H9NIO1EUT5VIFM4K22XG2.BANKACCOUNTS columns (ACCOUNTID)
+ORA-03301: (ORA-00001 details) row with column values (ACCOUNTID:2) already exists
+
+https://docs.oracle.com/error-help/db/ora-00001/Error at Line: 5 Column: 0 
+
+
+
+Commit complete.
+
+Elapsed: 00:00:00.001
+
+
+1 row inserted.
+
+Elapsed: 00:00:00.002
+
+
+1 row inserted.
+
+Elapsed: 00:00:00.001
+
+
+Procedure TRANSFERFUNDS compiled
+
+Elapsed: 00:00:00.023
+
+
+PL/SQL procedure successfully completed.
+
+Elapsed: 00:00:00.013
+ACCOUNTID CUSTOMERID BALANCE 
+--------- ---------- ------- 
+5         201        10000   
+6         202        5000    
+1         201        8000    
+2         202        7000    
+
+Elapsed: 00:00:00.008
+4 rows selected. 
+
