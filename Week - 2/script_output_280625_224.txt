@@ -1,0 +1,108 @@
+
+ORA-00955: name is already used by an existing object
+
+https://docs.oracle.com/error-help/db/ora-00955/Error at Line: 4 Column: 0 
+
+
+ORA-00955: name is already used by an existing object
+
+https://docs.oracle.com/error-help/db/ora-00955/Error at Line: 12 Column: 0 
+
+
+ORA-00001: unique constraint (SQL_HFCG2H9NIO1EUT5VIFM4K22XG2.SYS_C002458517) violated on table SQL_HFCG2H9NIO1EUT5VIFM4K22XG2.BANKCUST columns (CUSTOMERID)
+ORA-03301: (ORA-00001 details) row with column values (CUSTOMERID:10) already exists
+
+https://docs.oracle.com/error-help/db/ora-00001/Error at Line: 19 Column: 0 
+
+
+ORA-00001: unique constraint (SQL_HFCG2H9NIO1EUT5VIFM4K22XG2.SYS_C002458517) violated on table SQL_HFCG2H9NIO1EUT5VIFM4K22XG2.BANKCUST columns (CUSTOMERID)
+ORA-03301: (ORA-00001 details) row with column values (CUSTOMERID:20) already exists
+
+https://docs.oracle.com/error-help/db/ora-00001/Error at Line: 20 Column: 0 
+
+
+ORA-00001: unique constraint (SQL_HFCG2H9NIO1EUT5VIFM4K22XG2.SYS_C002458517) violated on table SQL_HFCG2H9NIO1EUT5VIFM4K22XG2.BANKCUST columns (CUSTOMERID)
+ORA-03301: (ORA-00001 details) row with column values (CUSTOMERID:30) already exists
+
+https://docs.oracle.com/error-help/db/ora-00001/Error at Line: 21 Column: 0 
+
+
+ORA-00001: unique constraint (SQL_HFCG2H9NIO1EUT5VIFM4K22XG2.SYS_C002458517) violated on table SQL_HFCG2H9NIO1EUT5VIFM4K22XG2.BANKCUST columns (CUSTOMERID)
+ORA-03301: (ORA-00001 details) row with column values (CUSTOMERID:40) already exists
+
+https://docs.oracle.com/error-help/db/ora-00001/Error at Line: 22 Column: 0 
+
+
+ORA-00001: unique constraint (SQL_HFCG2H9NIO1EUT5VIFM4K22XG2.SYS_C002458518) violated on table SQL_HFCG2H9NIO1EUT5VIFM4K22XG2.BANKLO columns (LOANID)
+ORA-03301: (ORA-00001 details) row with column values (LOANID:1001) already exists
+
+https://docs.oracle.com/error-help/db/ora-00001/Error at Line: 24 Column: 0 
+
+
+ORA-00001: unique constraint (SQL_HFCG2H9NIO1EUT5VIFM4K22XG2.SYS_C002458518) violated on table SQL_HFCG2H9NIO1EUT5VIFM4K22XG2.BANKLO columns (LOANID)
+ORA-03301: (ORA-00001 details) row with column values (LOANID:1002) already exists
+
+https://docs.oracle.com/error-help/db/ora-00001/Error at Line: 25 Column: 0 
+
+
+ORA-00001: unique constraint (SQL_HFCG2H9NIO1EUT5VIFM4K22XG2.SYS_C002458518) violated on table SQL_HFCG2H9NIO1EUT5VIFM4K22XG2.BANKLO columns (LOANID)
+ORA-03301: (ORA-00001 details) row with column values (LOANID:1003) already exists
+
+https://docs.oracle.com/error-help/db/ora-00001/Error at Line: 26 Column: 0 
+
+
+ORA-00001: unique constraint (SQL_HFCG2H9NIO1EUT5VIFM4K22XG2.SYS_C002458518) violated on table SQL_HFCG2H9NIO1EUT5VIFM4K22XG2.BANKLO columns (LOANID)
+ORA-03301: (ORA-00001 details) row with column values (LOANID:1004) already exists
+
+https://docs.oracle.com/error-help/db/ora-00001/Error at Line: 27 Column: 0 
+
+
+
+Commit complete.
+
+Elapsed: 00:00:00.001
+
+
+PL/SQL procedure successfully completed.
+
+Elapsed: 00:00:00.005
+LOANID CUSTOMERID INTERESTRATE DUEDATE                   
+------ ---------- ------------ ------------------------- 
+1001   10         3            07/13/2025, 09:31:20 PM   
+1002   20         8.5          08/12/2025, 09:31:20 PM   
+1003   30         2            07/23/2025, 09:31:20 PM   
+1004   40         9.2          07/03/2025, 09:31:20 PM   
+
+Elapsed: 00:00:00.001
+4 rows selected. 
+
+
+
+PL/SQL procedure successfully completed.
+
+Elapsed: 00:00:00.005
+CUSTOMERID CUSTOMERNAME  AGE BALANCE ISVIP   
+---------- ------------- --- ------- ------- 
+10         John Doe      72  15000   TRUE    
+20         Mary Smith    55  9500    FALSE   
+30         Robert King   66  12000   TRUE    
+40         Nancy Adams   35  4000    FALSE   
+
+Elapsed: 00:00:00.001
+4 rows selected. 
+
+
+
+PL/SQL procedure successfully completed.
+
+Elapsed: 00:00:00.005
+LOANID CUSTOMERID INTERESTRATE DUEDATE                   
+------ ---------- ------------ ------------------------- 
+1001   10         3            07/13/2025, 09:31:20 PM   
+1002   20         8.5          08/12/2025, 09:31:20 PM   
+1003   30         2            07/23/2025, 09:31:20 PM   
+1004   40         9.2          07/03/2025, 09:31:20 PM   
+
+Elapsed: 00:00:00.001
+4 rows selected. 
+
